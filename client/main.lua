@@ -504,74 +504,74 @@ end)
 
 --Menus--
 
-RegisterNetEvent('nh-context:PMeals', function(data)
-	local id = data.id
-    local number = data.number
-    TriggerEvent('nh-context:createMenu', {
-        {
-            header = "| Available Meals |",
-            txt = "",
-        },
-        {
-            header = "Margherita Pizza",
-            context = "Dough , Mozzarella , Basil, Tomato Sauce",
-				event = "prime-pizza:Margherita"
+-- RegisterNetEvent('nh-context:PMeals', function(data)
+-- 	local id = data.id
+--     local number = data.number
+--     TriggerEvent('nh-context:createMenu', {
+--         {
+--             header = "| Available Meals |",
+--             txt = "",
+--         },
+--         {
+--             header = "Margherita Pizza",
+--             context = "Dough , Mozzarella , Basil, Tomato Sauce",
+-- 				event = "prime-pizza:Margherita"
 			
-        },
-        {
-            header = "Pepperoni Pizza",
-            context = "Dough , Mozzarella , Pepperoni, Tomato Sauce",
-            event = "prime-pizza:Pepperoni"
-        },
-        {
-            header = "Lasagna",
-            context = "Pasta , Meat , Mozzarella , Tomato Sauce",
-            event = "prime-pizza:Lasagna"
-        },
-		{
-            header = "Pasta in Bianco",
-            context = "Pasta , Mozzarella",
-            event = "prime-pizza:Bianco"
-        },
-		{
-            header = "Risotto",
-            context = "Rice , Broth, Parmesan",
-            event = "prime-pizza:Risotto"
-        },
-        {
-            header = "Close (ESC)",
-            context = "",
-        },
-    })
-end)
+--         },
+--         {
+--             header = "Pepperoni Pizza",
+--             context = "Dough , Mozzarella , Pepperoni, Tomato Sauce",
+--             event = "prime-pizza:Pepperoni"
+--         },
+--         {
+--             header = "Lasagna",
+--             context = "Pasta , Meat , Mozzarella , Tomato Sauce",
+--             event = "prime-pizza:Lasagna"
+--         },
+-- 		{
+--             header = "Pasta in Bianco",
+--             context = "Pasta , Mozzarella",
+--             event = "prime-pizza:Bianco"
+--         },
+-- 		{
+--             header = "Risotto",
+--             context = "Rice , Broth, Parmesan",
+--             event = "prime-pizza:Risotto"
+--         },
+--         {
+--             header = "Close (ESC)",
+--             context = "",
+--         },
+--     })
+-- end)
 
-RegisterNetEvent('nh-context:PDMeals', function(data)
-    TriggerEvent('nh-context:createMenu', {
-        {
-            header = "| Available Desserts |",
-            txt = "",
-        },
-        {
-            header = "Tiramisu",
-            context = "Flour , Egg , Coffee , Cocoa",
-            event = "prime-pizza:Tiramisu"
-        },
-        {
-            header = "Tartufo di Pizzo",
-            context = "Chocolate , Cocoa , Ice Cream",
-            event = "prime-pizza:Tartufo"
-        },
-		{
-            header = "Trio of Gelato",
-            context = "Chocolate Scoop , Pistachio Scoop , Raspberry Scoop",
-            event = "prime-pizza:gelato"
-        },
-        {
-            header = "Close (ESC)",
-            context = "",
-        },
-    })
-end)
+-- RegisterNetEvent('nh-context:PDMeals', function(data)
+--     TriggerEvent('nh-context:createMenu', {
+--         {
+--             header = "| Available Desserts |",
+--             txt = "",
+--         },
+--         {
+--             header = "Tiramisu",
+--             context = "Flour , Egg , Coffee , Cocoa",
+--             event = "prime-pizza:Tiramisu"
+--         },
+--         {
+--             header = "Tartufo di Pizzo",
+--             context = "Chocolate , Cocoa , Ice Cream",
+--             event = "prime-pizza:Tartufo"
+--         },
+-- 		{
+--             header = "Trio of Gelato",
+--             context = "Chocolate Scoop , Pistachio Scoop , Raspberry Scoop",
+--             event = "prime-pizza:gelato"
+--         },
+--         {
+--             header = "Close (ESC)",
+--             context = "",
+--         },
+--     })
+-- end)
 
 
 RegisterNetEvent('nh-context:POrderMenu', function(data)
